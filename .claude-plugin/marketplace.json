@@ -1,0 +1,14 @@
+{
+  "name": "env-paper-writing",
+  "owner": {
+    "name": "1768898664-bit",
+    "url": "https://github.com/1768898664-bit"
+  },
+  "plugins": [
+    {
+      "name": "env-paper-writing",
+      "source": "./",
+      "description": "环境科学/环境工程英文学术论文写作 skill 合集：分章节写作、摘要、图表标题、投稿信、审稿回复、数据可用性声明。"
+    }
+  ]
+}

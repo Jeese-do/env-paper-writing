@@ -15,6 +15,8 @@
 | [`env-abstract`](skills/env-abstract/SKILL.md) | 摘要专项 | 生成结构完整、含定量结果的英文摘要 + 关键词 + 图文摘要要点 |
 | [`env-fig-caption`](skills/env-fig-caption/SKILL.md) | 图/表标题 | 把中文描述转为规范英文 Figure / Table caption |
 | [`env-cover-letter`](skills/env-cover-letter/SKILL.md) | 投稿信 | 撰写突出创新点与期刊契合度的英文 Cover Letter |
+| [`env-response-letter`](skills/env-response-letter/SKILL.md) | 审稿回复 | 逐点、礼貌、有据地撰写 Response to Reviewers |
+| [`env-data-availability`](skills/env-data-availability/SKILL.md) | 数据可用性声明 | 生成符合期刊与 FAIR 原则的 Data Availability Statement |
 
 ## 🎯 设计特点
 
@@ -39,13 +41,20 @@
 
 ### 方式二：作为 Claude 插件安装（推荐）
 
-本仓库自带 `.claude-plugin/plugin.json`，可作为插件整体安装，一次获得全部 skills：
+本仓库自带 `.claude-plugin/plugin.json` 与 `.claude-plugin/marketplace.json`，可作为插件 marketplace 直接添加，一次获得全部 skills。在 Claude Code 中：
+
+```
+/plugin marketplace add 1768898664-bit/env-paper-writing
+/plugin install env-paper-writing@env-paper-writing
+```
+
+或先克隆到本地再添加：
 
 ```bash
 git clone https://github.com/1768898664-bit/env-paper-writing.git
 ```
 
-将其加入你的 Claude 插件 marketplace 后即可使用全部四个 skill。
+安装后即可使用全部六个 skill。
 
 ## 🧪 使用示例
 
@@ -75,7 +84,9 @@ env-paper-writing/
     ├── env-paper-writing/SKILL.md
     ├── env-abstract/SKILL.md
     ├── env-fig-caption/SKILL.md
-    └── env-cover-letter/SKILL.md
+    ├── env-cover-letter/SKILL.md
+    ├── env-response-letter/SKILL.md
+    └── env-data-availability/SKILL.md
 ```
 
 ## 🤝 贡献

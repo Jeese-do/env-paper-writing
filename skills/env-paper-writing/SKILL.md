@@ -1,6 +1,6 @@
 ---
 name: env-paper-writing
-description: 协助环境科学/环境工程学科的英文学术论文写作，涵盖摘要、引言、方法、结果、讨论等章节的撰写、润色与逻辑梳理。适用于撰写或改写环境领域SCI论文段落、提升语言严谨性与可读性。配套专项 skill：env-abstract（摘要）、env-fig-caption（图表标题）、env-cover-letter（投稿信）。
+description: 协助环境科学/环境工程学科的英文学术论文写作，涵盖摘要、引言、方法、结果、讨论等章节的撰写、润色与逻辑梳理。适用于撰写或改写环境领域SCI论文段落、提升语言严谨性与可读性。配套专项 skill：env-abstract（摘要）、env-fig-caption（图表标题）、env-cover-letter（投稿信）、env-response-letter（审稿回复）、env-data-availability（数据可用性声明）。
 ---
 
 # Role
