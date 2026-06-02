@@ -62,7 +62,10 @@ git clone https://github.com/1768898664-bit/env-paper-writing.git
 
 Skill 将输出规范的英文 LaTeX 文本，并附中文修改说明。
 
-👉 完整示例见 [`examples/results-paragraph.md`](examples/results-paragraph.md)。
+完整示例：
+- [`examples/results-paragraph.md`](examples/results-paragraph.md) — Results 段落写作
+- [`examples/cover-letter.md`](examples/cover-letter.md) — 投稿信
+- [`examples/response-letter.md`](examples/response-letter.md) — 审稿回复
 
 ## 🗂️ 目录结构
 

@@ -1,5 +1,8 @@
 # 示例：用 env-paper-writing 撰写 Results 段落
 
+> 更多示例：[投稿信](cover-letter.md) · [审稿回复](response-letter.md)
+
+
 ## 输入（用户提供的中文要点）
 
 > 章节：Results

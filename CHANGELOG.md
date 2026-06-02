@@ -2,6 +2,13 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [Unreleased]
+
+### Added
+- 新增示例 `examples/cover-letter.md`（投稿信完整 input→output）。
+- 新增示例 `examples/response-letter.md`（审稿回复完整 input→output）。
+- README 示例区改为示例列表，串联三个示例。
+
 ## [0.3.0] - 2026-06-02
 
 ### Added
